@@ -54,7 +54,7 @@ class PaperSheet extends React.Component {
                 </div>
             </div>
             <Divider/>
-            <div className='row'>
+            <div className='row text-center'>
             <div className='col-sm-4'>
             <Paper className={this.props.classes.root} elevation={1}>
                 <Typography variant="h3" component="h3">
