@@ -67,6 +67,7 @@ class PaperSheet extends React.Component {
                     onChange={(e)=>this.handleChangeli('ph',e)}
                     margin="normal"
                     variant="outlined"
+                    fullWidth
                 />
                 <TextField
                     id="outlined-name"
@@ -75,6 +76,8 @@ class PaperSheet extends React.Component {
                     onChange={(e)=>this.handleChangeli('sd',e)}
                     margin="normal"
                     variant="outlined"
+                    fullWidth
+
                 />
                 <TextField
                     id="outlined-name"
@@ -82,6 +85,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeli('hd',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
                 <TextField
@@ -90,6 +94,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeli('ol',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
                 <TextField
@@ -98,6 +103,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeli('bd',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
                 <TextField
@@ -106,9 +112,10 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeli('mn',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
-                <div className=''>
+                <div className='text-center'>
             <Button variant="outlined" color="primary" className={this.props.classes.button}>Submit</Button> 
         </div>
             </Paper>
@@ -124,6 +131,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeul('ph',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
                 <TextField
@@ -132,6 +140,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeul('sd',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
                 <TextField
@@ -139,6 +148,7 @@ class PaperSheet extends React.Component {
                     label="hardness"
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeul('hd',e)}
+                    fullWidth
                     margin="normal"
                     variant="outlined"
                 />
@@ -148,6 +158,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeul('ol',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
                 <TextField
@@ -156,6 +167,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeul('bd',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
                 <TextField
@@ -164,9 +176,10 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={(e)=>this.handleChangeul('mn',e)}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
-                <div className=''>
+                <div className='text-center'>
             <Button variant="outlined" color="primary" className={this.props.classes.button}>Submit</Button> 
         </div>
 
@@ -183,6 +196,7 @@ class PaperSheet extends React.Component {
                     className={this.props.classes.textField}
                     onChange={this.handleWrcChange}
                     margin="normal"
+                    fullWidth
                     variant="outlined"
                 />
             </Paper>
